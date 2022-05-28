@@ -43,7 +43,7 @@ li{
 .card-content::before{
     content: "";
     /* background-image: url(https://cdn4.vectorstock.com/i/1000x1000/06/63/hermes-greek-god-silhouette-mythology-symbol-vector-23680663.jpg); */
-    background-image: url(img/230-2301891_hermes-greek-god-png-graphic-stock-greek-god.png);
+    background-image: url(230-2301891_hermes-greek-god-png-graphic-stock-greek-god.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -114,7 +114,7 @@ box-shadow: 12px 10px 25px rgba(111, 21, 21, 0.15);
   }
   .card-front::before{
       content: "";
-    background-image: url(img/230-2301891_hermes-greek-god-png-graphic-stock-greek-god.png);
+    background-image: url(230-2301891_hermes-greek-god-png-graphic-stock-greek-god.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
