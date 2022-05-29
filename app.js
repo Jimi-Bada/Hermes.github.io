@@ -30,7 +30,6 @@ const adjective = "beautiful"
      return a % b;
  }
  console.log("5. "+ printRemainder(8,3));
- document.write(printRemainder(8,3))
  
  6//
  function quadraticEquation(a, b, c){
