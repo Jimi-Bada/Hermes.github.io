@@ -49,7 +49,7 @@ li{
 }
 .card-content::before{
     content: "";
-    background-image: url(img/D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
+    background-image: url(D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
