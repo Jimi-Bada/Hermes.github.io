@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Card Section*/
+.card-section{
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+align-content: center;
+line-height: 1.6;
+background: url(https://images.pexels.com/photos/3745234/pexels-photo-3745234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+background-size:cover ;
+font-family: sans-serif;
+}
+
+.card{
+   color: #fff; 
+   background-size: cover;
+   height: 30em;
+   width: 60em; 
+   font-weight: 500; 
+   animation: fadedown 5s ease-in;
+   position: relative;    
+}
+@keyframes fadedown{
+    0% {top: -800px;}
+    25%{top: 0px;}
+
+}
+li{
+    display: block;
+    font-size: 2rem;
+}
+
+
+.card-content{
+    padding: 1.5em;
+    background:linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    display: grid;
+    justify-content: flex-start;
+    border: 2px solid #6C6A78 ;
+   border-radius: 10%; 
+   box-shadow: 12px 10px 25px rgba(111, 21, 21, 0.15);
+   position: relative;
+   overflow: hidden;
+}
+.card-content::before{
+    content: "";
+    background-image: url(img/D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity:0.65 ;
+    border-radius: 10%;
+    transform: rotate(-20deg) translate(0px, 250px);
+    
+    
+}
+.card-title{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+ul img{
+    height: 73px;
+    border-radius: 25%;
+    
+}
+h2, h3,p, ul{
+    position: relative;
+}
+p{
+    top: 2px;
+    font-style: italic;
+    font-size: 20px;
+    left: 280px;
+}
+.flap {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .flap::before {
+    position: absolute;
+    content: "";
+    height: 118%;
+    width: 50%;
+    background: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-repeat: no-repeat;
+    transition: 1s;
+    top: 0px;
+    border-radius: 10% 0 0 10%
+  }
+  .flap h3{
+      position: absolute;
+      top: 0;
+  }
+  .flap::after {
+    position: absolute;
+    content: "";
+    height: 118%;
+    width: 54%;
+    right: 0;
+    background:linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+    background-position: 30px;
+    background-repeat: no-repeat;
+    transition: 1s;
+    top: 0px;
+    border-radius: 0 10% 10% 0;
+  }
+  
+  .card:hover .flap::after {
+    transform: translatex(500px);
+  }
+  
+  .card:hover .flap::before{
+    transform: translatex(-500px);
+  }
+  @media screen and (max-width: 800px) {
+      .flap{
+          display: none;
+      }
+      
+  }
