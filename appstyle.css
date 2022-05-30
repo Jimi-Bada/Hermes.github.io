@@ -50,7 +50,7 @@ li{
 }
 .card-content::before{
     content: "";
-    background-image: url(img/D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
+    background-image: url(D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -97,7 +97,7 @@ p{
     content: "";
     height: 118%;
     width: 50%;
-    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(90,37,91,0.7) 35%, rgba(0,212,255,0.7) 100%),url(img/D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
+    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(90,37,91,0.7) 35%, rgba(0,212,255,0.7) 100%),url(D98161p-a8f1ec7d-4e6f-434a-ae76-1f71db128448.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     transition: 1s;
@@ -121,7 +121,7 @@ p{
     height: 118%;
     width: 54%;
     right: 0;
-    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(90,37,91,0.7) 35%, rgba(0,212,255,0.7) 100%) , url(img/caduceus-1245442.jpg);
+    background: linear-gradient(90deg, rgba(2,0,36,0.7) 0%, rgba(90,37,91,0.7) 35%, rgba(0,212,255,0.7) 100%) , url(caduceus-1245442.jpg);
     background-position: 30px;
     background-repeat: no-repeat;
     background-size: cover;
