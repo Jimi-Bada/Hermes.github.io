@@ -132,6 +132,7 @@ p{
     display: flex;
     align-items: center;
     font-size: 32px;
+      transfor-orientation: right;
   }
   .right h2{
       padding-left: 30px;
@@ -140,11 +141,11 @@ p{
       padding-right: 20px;
   }
   .card:hover .flap > .right {
-    transform: translatex(468px);
+    transform: scalex(-0.5);
   }
   
   .card:hover .flap > .left{
-    transform: translatex(-500px);
+    transform: scalex(-0.5);
   }
   
 
