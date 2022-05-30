@@ -168,9 +168,9 @@ p{
       }
       
   }
-@media screen and (min-width:800px) and (max-width: 426px){
-    .card-content{
-        width: 70rem;
+ @media screen and (max-width:801px) and (min-width:427px){
+    .card-section:hover{
+        width: 130rem;
     }
-}
+  }
     
