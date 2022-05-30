@@ -132,7 +132,7 @@ p{
     display: flex;
     align-items: center;
     font-size: 32px;
-      transfor-orientation: right;
+      transform-orientation: right;
   }
   .right h2{
       padding-left: 30px;
