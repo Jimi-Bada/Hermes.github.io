@@ -166,4 +166,11 @@ p{
       p{
       left: 173px;
       }
+      
   }
+@media screen and (min-width:800px) and (max-width: 426px){
+    .card-content{
+        width: 70rem;
+    }
+}
+    
