@@ -58,7 +58,7 @@ const adjective = "beautiful"
  9//
  const principal = 8200
  const rate = 17.5
- const time = 2.6
+ const time = 2.5
  const SI = (principal * rate * time) / 100 ;
  console.log(`9. #${SI}`);
 
